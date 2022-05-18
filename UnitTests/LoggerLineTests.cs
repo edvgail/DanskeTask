@@ -22,7 +22,7 @@ namespace Company.UnitTests
         }
 
         [TestMethod]
-        public void ToString_ShouldThrowArgumentNullException_IfTextParameterIsNull()
+        public void ToString_ShouldReturnFormattedString_IfTextAndDateIsPassed()
         {
             // Arrange
             string text = "Test data";
